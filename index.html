@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Triết Học Mác - Lênin (69 Câu Chuẩn PDF)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                            600: '#475569',
+                        },
+                        brand: {
+                            blue: '#3b82f6',
+                            cyan: '#06b6d4',
+                            purple: '#8b5cf6',
+                            emerald: '#10b981',
+                            rose: '#f43f5e',
+                            amber: '#f59e0b'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .option-btn {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .option-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+        }
+        @keyframes pulse-subtle {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        .pulse-correct {
+            animation: pulse-subtle 0.4s ease-in-out;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-navy-900 text-slate-100 flex flex-col justify-between selection:bg-brand-cyan selection:text-navy-900">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-slate-700/50 px-4 lg:px-8 py-3">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Logo & Title -->
+            <div class="flex items-center space-x-3 cursor-pointer" onclick="switchTab('dashboard')">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-blue to-brand-cyan flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-brand-blue/30">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-lg lg:text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-teal-300">
+                        Triết Học Mác - Lênin
+                    </h1>
+                    <p class="text-xs text-slate-400 flex items-center gap-1">
+                        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Trọn bộ 69 câu Đáp án Triết học 1
+                    </p>
+                </div>
+            </div>
+
+            <!-- Header Quick Actions -->
+            <div class="flex items-center gap-2 sm:gap-4">
+                <button onclick="switchTab('wrong-questions')" class="relative px-3 py-1.5 rounded-lg bg-rose-500/10 border border-rose-500/30 text-rose-400 hover:bg-rose-500/20 text-xs sm:text-sm font-medium transition flex items-center gap-2">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>Câu làm sai</span>
+                    <span id="header-wrong-count" class="px-1.5 py-0.5 rounded-full bg-rose-500 text-white text-xs font-bold">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 py-6 w-full flex-grow">
+
+        <!-- TAB 1: DASHBOARD -->
+        <section id="tab-dashboard" class="space-y-6">
+            <!-- Hero Banner -->
+            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 via-navy-800 to-indigo-950 p-6 lg:p-10 border border-slate-700/60 shadow-2xl">
+                <div class="absolute right-0 top-0 bottom-0 opacity-10 pointer-events-none p-6">
+                    <i class="fa-solid fa-brain text-[240px] text-cyan-400"></i>
+                </div>
+                <div class="relative z-10 max-w-2xl">
+                    <span class="inline-block px-3 py-1 rounded-full bg-brand-blue/20 text-brand-cyan border border-brand-blue/30 text-xs font-semibold uppercase tracking-wider mb-3">
+                        Quizizz Study Master - 69 Câu Hỏi Chuẩn PDF
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-4">
+                        Ôn tập trọn bộ 69 câu hỏi Triết học Mác - Lênin
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
+                        Đã nạp đầy đủ 69 câu hỏi trắc nghiệm từ phần "Đáp án triết học 1". Có giải thích lý luận chi tiết cho từng câu, hỗ trợ luyện tập có phản hồi ngay, thi thử bấm giờ và tự động lưu câu làm sai để làm lại.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <button onclick="startQuiz('practice')" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand-blue to-brand-cyan hover:from-blue-600 hover:to-cyan-500 text-white font-bold shadow-lg shadow-brand-blue/30 transition transform hover:-translate-y-0.5 flex items-center gap-2">
+                            <i class="fa-solid fa-play"></i> Luyện tập ngay (Có giải thích)
+                        </button>
+                        <button onclick="startQuiz('exam')" class="px-6 py-3 rounded-xl bg-navy-700 hover:bg-slate-700 border border-slate-600 text-white font-bold transition flex items-center gap-2">
+                            <i class="fa-solid fa-clock-rotate-left text-brand-purple"></i> Thi thử bấm giờ
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls Panel -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-2 glass-panel p-6 rounded-2xl border border-slate-700/50 space-y-5">
+                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-sliders text-brand-cyan"></i> Tùy chỉnh phạm vi ôn tập
+                    </h3>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Số lượng câu hỏi</label>
+                            <select id="filter-limit" class="w-full bg-navy-900 border border-slate-700 rounded-xl px-4 py-2.5 text-slate-200 focus:outline-none focus:border-brand-cyan">
+                                <option value="69" selected>Tất cả 69 câu (Trọn bộ PDF)</option>
+                                <option value="15">15 Câu ngẫu nhiên</option>
+                                <option value="30">30 Câu ngẫu nhiên</option>
+                                <option value="50">50 Câu ngẫu nhiên</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Tùy chọn xáo trộn</label>
+                            <div class="flex items-center gap-4 pt-2">
+                                <label class="flex items-center gap-2 cursor-pointer text-sm text-slate-300">
+                                    <input type="checkbox" id="setting-shuffle" checked class="w-4 h-4 accent-brand-cyan rounded">
+                                    Xáo trộn thứ tự câu & đáp án
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Summary -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-700/50 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-chart-pie text-brand-purple"></i> Thống kê học tập
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center p-3 rounded-xl bg-navy-900/60 border border-slate-700/40">
+                                <span class="text-slate-400 text-sm">Tổng câu hỏi PDF</span>
+                                <span class="font-bold text-brand-cyan text-base">69 Câu</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 rounded-xl bg-navy-900/60 border border-slate-700/40">
+                                <span class="text-slate-400 text-sm">Số lượt đã hoàn thành</span>
+                                <span id="stat-completed-tests" class="font-bold text-emerald-400 text-base">0</span>
+                            </div>
+                            <div class="flex justify-between items-center p-3 rounded-xl bg-navy-900/60 border border-slate-700/40">
+                                <span class="text-slate-400 text-sm">Danh sách câu làm sai</span>
+                                <span id="stat-wrong-q" class="font-bold text-rose-400 text-base">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button onclick="switchTab('wrong-questions')" class="mt-4 w-full py-2.5 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/40 font-semibold text-sm transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-rotate-right"></i> Làm lại các câu sai (<span id="wrong-btn-count">0</span>)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Search Panel -->
+            <div class="glass-panel p-6 rounded-2xl border border-slate-700/50">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
+                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-magnifying-glass text-brand-blue"></i> Tra cứu 69 câu hỏi
+                    </h3>
+                    <input type="text" id="search-input" oninput="renderQuestionSearch()" placeholder="Tìm nội dung câu hỏi (VD: Mác, Lênin, duy vật...)..." class="w-full sm:w-80 bg-navy-900 border border-slate-700 rounded-xl px-4 py-2 text-sm text-slate-200 focus:outline-none focus:border-brand-cyan">
+                </div>
+
+                <div id="search-results-list" class="space-y-3 max-h-72 overflow-y-auto pr-2"></div>
+            </div>
+        </section>
+
+
+        <!-- TAB 2: QUIZ SCREEN -->
+        <section id="tab-quiz" class="hidden space-y-6">
+            <!-- Header Status -->
+            <div class="glass-panel p-4 lg:p-6 rounded-2xl border border-slate-700/50 space-y-4">
+                <div class="flex flex-wrap items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <span id="quiz-mode-badge" class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-blue/20 text-brand-cyan border border-brand-blue/30">
+                            Chế độ Luyện tập
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-4 text-sm font-bold">
+                        <div class="flex items-center gap-1.5 text-emerald-400">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span id="quiz-score-correct">0</span>
+                        </div>
+                        <div class="flex items-center gap-1.5 text-rose-400">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            <span id="quiz-score-wrong">0</span>
+                        </div>
+                        <div id="quiz-timer-container" class="hidden flex items-center gap-1.5 text-amber-400 bg-amber-400/10 px-3 py-1 rounded-lg border border-amber-400/30">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <span id="quiz-timer-text">00:00</span>
+                        </div>
+                        <button onclick="quitQuiz()" class="text-xs text-slate-400 hover:text-white underline">Thoát</button>
+                    </div>
+                </div>
+
+                <!-- Progress Bar -->
+                <div>
+                    <div class="flex justify-between text-xs text-slate-400 font-semibold mb-1">
+                        <span>Câu hỏi <span id="quiz-current-num">1</span> / <span id="quiz-total-num">69</span></span>
+                        <span id="quiz-progress-percent">0%</span>
+                    </div>
+                    <div class="w-full bg-navy-900 rounded-full h-2.5 overflow-hidden border border-slate-700/60">
+                        <div id="quiz-progress-bar" class="bg-gradient-to-r from-brand-blue to-brand-cyan h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="glass-panel p-6 lg:p-8 rounded-2xl border border-slate-700/50 space-y-6 shadow-xl">
+                <div class="space-y-2">
+                    <span id="question-id-tag" class="text-xs font-semibold text-brand-cyan uppercase tracking-wider">
+                        Câu gốc PDF: 1
+                    </span>
+                    <h3 id="question-text" class="text-lg sm:text-xl lg:text-2xl font-bold text-white leading-relaxed">
+                        Nội dung câu hỏi...
+                    </h3>
+                </div>
+
+                <!-- Answer Options -->
+                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+
+                <!-- Explanation Box -->
+                <div id="explanation-box" class="hidden p-5 rounded-xl border space-y-3 transition-all duration-300">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2 font-bold text-sm" id="explanation-title">
+                            <i class="fa-solid fa-lightbulb text-amber-400 text-lg"></i>
+                            <span>Giải thích lý luận triết học:</span>
+                        </div>
+                        <span id="explanation-status-tag" class="text-xs px-2.5 py-0.5 rounded-full font-bold"></span>
+                    </div>
+                    <p id="explanation-text" class="text-sm text-slate-200 leading-relaxed"></p>
+                </div>
+
+                <!-- Navigation Controls -->
+                <div class="flex justify-between items-center pt-4 border-t border-slate-700/50">
+                    <button id="btn-prev" onclick="prevQuestion()" class="px-5 py-2.5 rounded-xl bg-navy-700 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed text-slate-200 text-sm font-semibold transition flex items-center gap-2">
+                        <i class="fa-solid fa-arrow-left"></i> Câu trước
+                    </button>
+
+                    <button id="btn-next" onclick="nextQuestion()" class="px-6 py-2.5 rounded-xl bg-gradient-to-r from-brand-blue to-brand-cyan hover:from-blue-600 hover:to-cyan-500 text-white text-sm font-bold shadow-lg shadow-brand-blue/20 transition flex items-center gap-2">
+                        <span>Câu tiếp theo</span> <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    
+                    <button id="btn-submit-exam" onclick="finishExam()" class="hidden px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-bold shadow-lg shadow-emerald-500/20 transition flex items-center gap-2">
+                        <i class="fa-solid fa-check-double"></i> Nộp bài thi
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TAB 3: RESULT SUMMARY -->
+        <section id="tab-result" class="hidden space-y-6">
+            <div class="glass-panel p-8 rounded-2xl border border-slate-700/50 text-center max-w-3xl mx-auto space-y-6">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-brand-blue/20 text-brand-cyan border-2 border-brand-blue/40 text-4xl mb-2">
+                    <i class="fa-solid fa-trophy" id="result-icon"></i>
+                </div>
+
+                <div class="space-y-2">
+                    <h2 id="result-title" class="text-3xl font-extrabold text-white">Hoàn Thành Bài Ôn Tập!</h2>
+                    <p id="result-subtitle" class="text-slate-300 text-sm">Bạn đã hoàn thành các câu hỏi trong bộ Đáp án Triết học 1.</p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-6 rounded-xl bg-navy-900/80 border border-slate-700/60">
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold mb-1">Điểm số</div>
+                        <div id="result-score-percent" class="text-3xl font-black text-brand-cyan">0%</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold mb-1">Số câu đúng</div>
+                        <div id="result-correct-count" class="text-3xl font-black text-emerald-400">0</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold mb-1">Số câu sai</div>
+                        <div id="result-wrong-count" class="text-3xl font-black text-rose-400">0</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold mb-1">Tổng câu</div>
+                        <div id="result-total-count" class="text-3xl font-black text-slate-200">0</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-4 pt-2">
+                    <button onclick="restartQuiz()" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand-blue to-brand-cyan hover:from-blue-600 hover:to-cyan-500 text-white font-bold shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-rotate-left"></i> Làm lại bộ đề này
+                    </button>
+                    <button onclick="startWrongQuestionsQuiz()" id="btn-result-wrong-only" class="px-6 py-3 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/40 font-bold transition flex items-center gap-2">
+                        <i class="fa-solid fa-triangle-exclamation"></i> Ôn lại các câu trả lời sai
+                    </button>
+                    <button onclick="switchTab('dashboard')" class="px-6 py-3 rounded-xl bg-navy-700 hover:bg-slate-700 text-slate-200 font-semibold transition">
+                        Về trang chủ
+                    </button>
+                </div>
+            </div>
+
+            <!-- Detailed Breakdown -->
+            <div class="glass-panel p-6 rounded-2xl border border-slate-700/50 space-y-4">
+                <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-list-check text-brand-cyan"></i> Bảng phân tích chi tiết từng câu trả lời
+                </h3>
+                <div id="result-breakdown-list" class="space-y-4"></div>
+            </div>
+        </section>
+
+
+        <!-- TAB 4: WRONG QUESTIONS MANAGEMENT -->
+        <section id="tab-wrong-questions" class="hidden space-y-6">
+            <div class="glass-panel p-6 rounded-2xl border border-slate-700/50 space-y-4">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-triangle-exclamation text-rose-400"></i> Các Câu Làm Sai (<span id="wrong-tab-count">0</span>)
+                        </h2>
+                        <p class="text-xs text-slate-400">Các câu trả lời chưa đúng sẽ được tự động lưu ở đây để bạn ôn lại riêng biệt.</p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <button onclick="startWrongQuestionsQuiz()" id="btn-start-wrong-quiz" class="px-5 py-2.5 rounded-xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-sm shadow-lg shadow-rose-500/30 transition flex items-center gap-2">
+                            <i class="fa-solid fa-play"></i> Bắt đầu ôn lại câu sai
+                        </button>
+                        <button onclick="clearWrongQuestions()" class="px-4 py-2.5 rounded-xl bg-navy-700 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition">
+                            Xóa danh sách
+                        </button>
+                    </div>
+                </div>
+
+                <div id="wrong-questions-list" class="space-y-4 pt-2"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-4 px-4 text-center text-xs text-slate-500">
+        <p>© Ứng dụng Ôn tập Trắc nghiệm Triết học Mác - Lênin | Full 69 Câu Đáp Án Triết Học 1</p>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none px-4 py-3 rounded-xl glass-panel border border-brand-cyan/40 text-white text-sm shadow-2xl flex items-center gap-3">
+        <i class="fa-solid fa-circle-info text-brand-cyan text-lg" id="toast-icon"></i>
+        <span id="toast-msg">Thông báo...</span>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC FULL 69 CÂU HỎI -->
+    <script>
+        /* ==========================================================================
+           1. CHUẨN ĐỦ 69 CÂU HỎI TỪ FILE PDF (ĐÁP ÁN TRIẾT HỌC 1) & GIẢI THÍCH LÝ LUẬN
+           ========================================================================== */
+        const pdfQuestions69 = [
+            {
+                id: 1,
+                question: "Vai trò của triết học trong đời sống xã hội được xác định thông qua yếu tố nào?",
+                options: ["Uy tín của người nêu lên chủ thuyết", "Số lượng người tìm hiểu trường phái triết học", "Chức năng thế giới quan và phương pháp luận của triết học", "Tính giai cấp và tính đảng của nó"],
+                correct: 2,
+                explanation: "Triết học đóng vai trò là hạt nhân lý luận của thế giới quan và cung cấp phương pháp luận chung nhất cho hoạt động nhận thức và thực tiễn của con người."
+            },
+            {
+                id: 2,
+                question: "Lý luận nào của C. Mác được xem là thành tựu vĩ đại nhất của tư tưởng khoa học?",
+                options: ["Chủ nghĩa duy vật biện chứng", "Nhận thức của con người là một quá trình biện chứng", "Tổng kết hoạt động của phong trào công nhân quốc tế", "Chủ nghĩa duy vật lịch sử"],
+                correct: 3,
+                explanation: "Sự ra đời của Chủ nghĩa duy vật lịch sử là sáng tạo vĩ đại nhất của Mác, chấm dứt quan niệm duy tâm về lịch sử và biến triết học thành khoa học."
+            },
+            {
+                id: 3,
+                question: "Tác phẩm nào sau đây được xem là văn kiện có tính cương lĩnh đầu tiên của chủ nghĩa Mác - Lênin?",
+                options: ["Sự khốn cùng của Triết học (1847)", "Tuyên ngôn Đảng cộng sản (1848)", "Tư bản (1867)", "Hệ tư tưởng Đức (1845-1846)"],
+                correct: 1,
+                explanation: "'Tuyên ngôn của Đảng Cộng sản' (2/1848) là tác phẩm trình bày một cách toàn diện, hệ thống nguyên lý cơ bản của chủ nghĩa Mác và là cương lĩnh đầu tiên của phong trào cộng sản."
+            },
+            {
+                id: 4,
+                question: "Tiền đề khoa học tự nhiên cho sự ra đời triết học Mác là gì?",
+                options: [
+                    "Lý thuyết điện từ của M. Pha-ra-đây; Định luật tuần hoàn các nguyên tố hóa học của Men-đê-lê-ép; Di truyền học hiện đại của Men-đen",
+                    "Cơ học cổ điển của I. Neu-ton; Thuyết tương đối của A. Anh-xtanh; học thuyết về tinh vân vũ trụ của I. Kan-to",
+                    "Hình học phi Euclide; mẫu nguyên tử của Tôm-xơn; thuyết tương đối của A. anh-xtanh",
+                    "Thuyết tiến hóa của S. Đác-uyn; Học thuyết bảo toàn và chuyển hóa năng lượng; Học thuyết tế bào (M. So-lay-đen và T. Sa-van-so)"
+                ],
+                correct: 3,
+                explanation: "Ba phát minh này vạch ra tính thống nhất vật chất và sự chuyển hóa biện chứng của thế giới tự nhiên, là cơ sở KHTN cho sự ra đời chủ nghĩa duy vật biện chứng."
+            },
+            {
+                id: 5,
+                question: "Quan điểm của thuyết khả tri về mặt thứ hai của vấn đề cơ bản của triết học là gì?",
+                options: ["Cuộc sống con người sẽ đi về đâu", "Con người không có khả năng nhận thức được thế giới", "Con người hoàn toàn có khả năng nhận thức được thế giới", "Nghi ngờ khả năng nhận thức thế giới của con người"],
+                correct: 2,
+                explanation: "Thuyết Khả tri (Gnosticism) khẳng định con người hoàn toàn có khả năng nhận thức được bản chất thế giới khách quan."
+            },
+            {
+                id: 6,
+                question: "Quan điểm của triết học Mác – Lênin, điều kiện ra đời của triết học là gì?",
+                options: ["Khi sự nhận thức của con người đã đạt đến trình độ trừu tượng hóa và khái quát hóa về thế giới khách quan", "Khi xã hội loài người đã có sự đấu tranh giai cấp", "Khi xã hội có sự phân chia giữa nông nghiệp và công nghiệp", "Khi xã hội có sự phân chia lao động giữa người giàu và người nghèo"],
+                correct: 0,
+                explanation: "Triết học ra đời dựa trên 2 nguồn gốc: Nguồn gốc nhận thức (trình độ tư duy trừu tượng hóa cao) và Nguồn gốc xã hội (lao động trí óc tách khỏi lao động tay chân)."
+            },
+            {
+                id: 7,
+                question: "Phát biểu nào sau đây không đúng về Triết học Mác?",
+                options: ["Triết học Mác là khoa học của mọi khoa học", "Theo quan điểm của triết học Mác, triết học không thay thế được các khoa học cụ thể", "Theo quan điểm của triết học Mác, sự phát triển của triết học quan hệ chặt chẽ với sự phát triển của khoa học tự nhiên", "Triết học Mác ra đời vào những năm 40 của thế kỷ XIX"],
+                correct: 0,
+                explanation: "Triết học Mác đã chấm dứt quan niệm sai lầm coi triết học là 'Khoa học của mọi khoa học' đứng trên các khoa học cụ thể."
+            },
+            {
+                id: 8,
+                question: "Triết học xuất hiện ở giai đoạn nào của lịch sử văn minh nhân loại?",
+                options: ["Từ thời nguyên thuỷ", "Từ khi có tôn giáo", "Từ thời chiếm hữu nô lệ", "Từ khi con người có nhận thức"],
+                correct: 2,
+                explanation: "Triết học ra đời vào khoảng thế kỷ VI TCN ở thời kỳ chiếm hữu nô lệ - khi xã hội phân chia giai cấp và xuất hiện tầng lớp lao động trí óc."
+            },
+            {
+                id: 9,
+                question: "Nội dung nào sau đây là tiền đề lý luận trực tiếp cho sự ra đời của Triết học Mác - Lênin?",
+                options: ["Triết học Cổ điển Đức", "Kinh tế chính trị cổ điển Anh", "CNXH không tưởng Pháp", "Các thành tựu về kinh tế xã hội của các nước tây Âu vào giữa thế kỷ XIX"],
+                correct: 0,
+                explanation: "Triết học Mác kế thừa trực tiếp phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoi-ơ-bắc thuộc Triết học Cổ điển Đức."
+            },
+            {
+                id: 10,
+                question: "Triết học là gì?",
+                options: ["Sự yêu mến sự thông thái", "Sự suy nghĩ và nói năng chuẩn mực", "Triết học là hệ thống tri thức lý luận chung nhất của con người về thế giới; về vị trí, vai trò của con người trong thế giới ấy", "Sự suy tư, suy nghiệm về những vấn đề siêu hình học"],
+                correct: 2,
+                explanation: "Đây là định nghĩa chuẩn xác về Triết học theo quan điểm của Triết học Mác - Lênin."
+            },
+            {
+                id: 11,
+                question: "Đối tượng nghiên cứu của triết học là gì?",
+                options: ["Về những vấn đề chung nhất của tự nhiên, xã hội và tư duy", "Mối liên hệ giữa nhà nước và nhân dân", "Nghiên cứu về những vấn đề siêu nhiên trừu tượng", "Nghiên cứu về đời sống tâm linh của con người"],
+                correct: 0,
+                explanation: "Đối tượng của triết học Mác-Lênin là nghiên cứu các quy luật vận động, phát triển chung nhất của cả tự nhiên, xã hội và tư duy."
+            },
+            {
+                id: 12,
+                question: "Trình độ cao nhất của thế giới quan là gì?",
+                options: ["Tín ngưỡng vật linh", "Thế giới quan thần thoại", "Thế giới quan khoa học triết học", "Thần học tôn giáo"],
+                correct: 2,
+                explanation: "Thế giới quan triết học (đặc biệt là thế giới quan duy vật biện chứng) là trình độ phát triển cao nhất, có tính lý luận và khoa học sâu sắc."
+            },
+            {
+                id: 13,
+                question: "Triết học ra đời sớm nhất ở đâu?",
+                options: ["Ấn Độ, Châu Phi, Nga", "Ấn Độ, Trung Quốc, Hy Lạp", "Ai Cập, Ấn Độ, Trung Quốc", "Đức, Anh, Pháp"],
+                correct: 1,
+                explanation: "Ba trung tâm văn minh lớn ra đời Triết học sớm nhất nhân loại (thế kỷ VI TCN) là Ấn Độ cổ đại, Trung Quốc cổ đại và Hy Lạp cổ đại."
+            },
+            {
+                id: 14,
+                question: "Đặc trưng của thế giới quan thời kỳ nguyên thủy là gì?",
+                options: ["Khoa học", "Tôn giáo", "Chính trị", "Thần thoại"],
+                correct: 3,
+                explanation: "Thời kỳ nguyên thủy, trình độ nhận thức con người còn thấp kém nên thế giới quan mang tính chất Thần thoại (huyền thoại hóa thiên nhiên)."
+            },
+            {
+                id: 15,
+                question: "Nghiên cứu thế giới trong tính chỉnh thể và tìm ra bản chất quy luật của nó thuộc đối tượng nghiên cứu của bộ phận nào trong chủ nghĩa Mác-Lênin?",
+                options: ["Chủ nghĩa Mác- Lênin", "Triết học Mác- Lênin", "Kinh tế chính trị Mác- Lênin", "Chủ nghĩa xã hội khoa học Mác- Lênin"],
+                correct: 1,
+                explanation: "Triết học Mác - Lênin đảm nhận nhiệm vụ nghiên cứu thế giới trong tính chỉnh thể toàn diện để rút ra bản chất và quy luật chung nhất."
+            },
+            {
+                id: 16,
+                question: "Mục đích cơ bản nhất của môn học Triết học Mác- Lênin là gì?",
+                options: [
+                    "Hiểu rõ cơ sở lý luận quan trọng nhất của tư tưởng Hồ Chí Minh và đường lối cách mạng của Đảng cộng sản Việt Nam",
+                    "Xây dựng thế giới quan và phương pháp luận khoa học và vận dụng sáng tạo những nguyên lý đó trong hoạt động nhận thức và hoạt động thực tiễn",
+                    "Hiểu rõ nền tảng tư tưởng của Đảng cộng sản Việt Nam",
+                    "Xây dựng niềm tin, lý tưởng cho sinh viên về con đường đi lên chủ nghĩa xã hội"
+                ],
+                correct: 1,
+                explanation: "Mục đích trực tiếp nhất là trang bị thế giới quan duy vật biện chứng và phương pháp luận khoa học để hướng dẫn hành động thực tiễn."
+            },
+            {
+                id: 17,
+                question: "Đối tượng nghiên cứu của Kinh tế chính trị Mác- Lênin là gì?",
+                options: ["Kinh tế học chính trị của A. Smit", "Kinh tế học chính trị của D. Ricácđô", "Quy luật vận động và phát triển của phương thức sản xuất tư bản chủ nghĩa và tính tất yếu của sự ra đời của phương thức sản xuất cộng sản chủ nghĩa", "Sự phát triển của các phương thức sản xuất qua các thời kỳ lịch sử"],
+                correct: 2,
+                explanation: "Kinh tế chính trị Mác - Lênin nghiên cứu quan hệ sản xuất và quy luật kinh tế chi phối sự ra đời, phát triển và suy vong của phương thức sản xuất TBCN."
+            },
+            {
+                id: 18,
+                question: "Nội dung nào trong tư tưởng của các nhà chủ nghĩa xã hội không tưởng Pháp được chủ nghĩa Mác kế thừa?",
+                options: ["Phương thức xây dựng xã hội mới – xã hội cộng sản chủ nghĩa", "Nhận thức đúng đắn sứ mệnh lịch sử của giai cấp công nhân", "Quan điểm đúng đắn về đặc trưng của xã hội cộng sản chủ nghĩa trong tương lai", "Nhận thức đúng đắn về thành tựu và hạn chế của phương thức sản xuất tư bản chủ nghĩa"],
+                correct: 3,
+                explanation: "Các nhà CNXH không tưởng Pháp (Xanh Xi-mông, Phu-ri-ê) đã phê phán sâu sắc những hạn chế và bất công của chế độ TBCN."
+            },
+            {
+                id: 19,
+                question: "Đâu là tiền đề kinh tế - xã hội quyết định sự ra đời của chủ nghĩa Mác?",
+                options: [
+                    "Sự phát triển của khoa học kỹ thuật vào giữa thế kỷ XIX làm sâu sắc thêm mâu thuẫn giữa chủ nghĩa duy vật và chủ nghĩa duy tâm",
+                    "Sự phát triển của lực lượng sản xuất làm sâu sắc thêm mâu thuẫn giữa giai cấp tư sản và giai cấp công nhân trong xã hội tư bản chủ nghĩa",
+                    "Sự phát triển của khoa học kỹ thuật vào giữa thế kỷ XIX làm sâu sắc thêm mâu thuẫn giữa các tôn giáo lớn với các nhà khoa học",
+                    "Phong trào đấu tranh của giai cấp công nhân trên toàn thế giới chuyển từ tự phát sang tự giác"
+                ],
+                correct: 1,
+                explanation: "Sự phát triển LLSX dưới chế độ TBCN làm bộc lộ mâu thuẫn giai cấp gay gắt giữa Công nhân và Tư sản, đòi hỏi phải có lý luận soi đường."
+            },
+            {
+                id: 20,
+                question: "Tác phẩm nào sau đây của C.Mác đã phản ánh bản chất và những quy luật phát triển của chủ nghĩa tư bản?",
+                options: ["Tuyên ngôn Đảng Cộng sản", "Tư bản", "Hệ tư tưởng Đức", "Chủ nghĩa đế quốc – giai đoạn tột cùng của chủ nghĩa tư bản"],
+                correct: 1,
+                explanation: "Bộ 'Tư bản' (Das Kapital) là công trình kinh tế - triết học vĩ đại nhất của C. Mác bóc tách bản chất giá trị thặng dư và quy luật vận động của TBCN."
+            },
+            {
+                id: 21,
+                question: "Thành tựu nào sau đây thể hiện rõ ràng nhất sức ảnh hưởng của chủ nghĩa Mác – Lênin đến phong trào cách mạng vô sản trên toàn thế giới?",
+                options: ["Sự thành công của cách mạng Tháng Mười Nga (1917)", "Sự ra đời của Quốc tế Cộng sản (1919)", "Sự thành công của phong trào giải phóng dân tộc của các nước thuộc địa giữa thế kỷ XX", "Sự phát triển về lực lượng sản xuất của nước thuộc địa sau khi giành được độc lập"],
+                correct: 0,
+                explanation: "Cách mạng Tháng Mười Nga thắng lợi năm 1917 đã biến chủ nghĩa Mác - Lênin từ lý luận thành hiện thực sinh động."
+            },
+            {
+                id: 22,
+                question: "Những cống hiến của V.I.Lênin đối với triết học Mác là gì?",
+                options: [
+                    "Phê phán, khắc phục và chống những quan điểm sai lầm xuất hiện trong thời đại đế quốc chủ nghĩa như: chủ nghĩa xét lại chủ nghĩa Mác, chủ nghĩa duy tâm vật lý học, bệnh ấu trí tả khuynh trong triết học, chủ nghĩa giáo điều...",
+                    "Hiện thực hóa lý luận chủ nghĩa Mác bằng sự ra đời của Quốc tế cộng sản",
+                    "Bổ sung và hoàn chỉnh về mặt lý luận và thực tiễn những vấn đề như lý luận về cách mạng tư sản trong thời đại đế quốc chủ nghĩa",
+                    "Vinh danh công lao của Mác"
+                ],
+                correct: 0,
+                explanation: "V.I. Lênin đã bảo vệ và phát triển triết học Mác trước sự tấn công của chủ nghĩa xét lại và cuộc khủng hoảng vật lý học cuối thế kỷ XIX."
+            },
+            {
+                id: 23,
+                question: "Thế giới thống nhất ở tính gì?",
+                options: ["Tính thống nhất ở vật chất và tinh thần", "Ta cho nó thống nhất thì nó thống nhất", "Thống nhất ở tính vật chất", "Thống nhất vì do Thượng đế sinh ra"],
+                correct: 2,
+                explanation: "Triết học Mác - Lênin khẳng định: Bằng chứng lịch sử KHTN và triết học chứng minh rằng thế giới thống nhất ở tính vật chất của nó."
+            },
+            {
+                id: 24,
+                question: "Sự kiện xã hội nào lần đầu tiên đã chứng minh tính hiện thực của chủ nghĩa Mác- Lênin trong lịch sử?",
+                options: ["Cách mạng Tháng Mười Nga thắng lợi", "Công xã Pa-ri", "Cách mạng tháng 8 năm 1945 ở Việt Nam", "Chiến tranh thế giới lần thứ II"],
+                correct: 0,
+                explanation: "Cách mạng Tháng Mười Nga (1917) là sự kiện lần đầu tiên đưa chủ nghĩa Mác trở thành chế độ xã hội có thật trong lịch sử."
+            },
+            {
+                id: 25,
+                question: "“Triết học bao gồm quan điểm chung nhất, những sự lý giải có luận chứng cho các câu hỏi chung của con người, nên triết học bao gồm toàn bộ tri thức của nhân loại\". Nhận định trên ứng với triết học thời kỳ nào?",
+                options: ["Triết học Cổ đại", "Triết học Phục Hưng", "Triết học Trung cổ Tây Âu", "Triết học Mác – Lênin"],
+                correct: 0,
+                explanation: "Ở thời kỳ Cổ đại, triết học đóng vai trò là 'Khoa học của mọi khoa học', bao gồm toàn bộ tri thức tự nhiên và xã hội nhân loại có được."
+            },
+            {
+                id: 26,
+                question: "Điền vào chỗ trống để hoàn thiện mệnh đề: Triết học Mác – Lênin là khoa học...",
+                options: ["Nghiên cứu mọi hiện tượng quá trình xảy ra trong tự nhiên, xã hội và tư duy con người", "Nghiên cứu quy luật chung nhất của thế giới", "Nghiên cứu mọi khoa học", "Nghiên cứu mọi quy luật"],
+                correct: 1,
+                explanation: "Triết học Mác - Lênin là khoa học nghiên cứu những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy."
+            },
+            {
+                id: 27,
+                question: "Triết học Mácxít có chức năng gì?",
+                options: ["Chức năng chỉ đạo hoạt động thực tiễn", "Chức năng nghiên cứu mọi khoa học", "Chức năng thế giới quan và phương pháp luận phổ biến", "Chức năng hoàn thiện lý trí và nâng cao phẩm chất đạo đức cách mạng"],
+                correct: 2,
+                explanation: "Triết học Mácxít cung cấp Thế giới quan duy vật biện chứng và Phương pháp luận biện chứng phổ biến."
+            },
+            {
+                id: 28,
+                question: "Theo quan điểm của triết học Mácxít, triết học có những chức năng cơ bản nào?",
+                options: ["Chức năng giáo dục những giá trị đạo đức và thẩm mỹ cho con người", "Chức năng thế giới quan và phương pháp luận chung cho mọi hoạt động nhận thức và thực tiễn", "Chức năng tổ chức tri thức khoa học, thúc đẩy sự phát triển khoa học-công nghệ", "Giải thích hiện thực và thúc đẩy quần chúng làm cách mạng"],
+                correct: 1,
+                explanation: "Hai chức năng cơ bản nhất quy định toàn bộ giá trị của triết học Mácxít là Thế giới quan và Phương pháp luận."
+            },
+            {
+                id: 29,
+                question: "Hạt nhân lý luận của thế giới quan theo quan điểm của triết học Mác – Lênin là gì?",
+                options: ["Chính trị", "Triết học", "Lý luận của những ngành khoa học cụ thể", "Tôn giáo"],
+                correct: 1,
+                explanation: "Triết học chính là hạt nhân lý luận cấu thành nên thế giới quan của con người."
+            },
+            {
+                id: 30,
+                question: "Quan điểm của Hêghen về khoa học triết học là gì?",
+                options: ["Triết học là khoa học của mọi khoa học", "Khoa học triết học là siêu hình học", "Triết học là khoa học về mọi khoa học", "Triết học là khoa học về xã hội và lịch sử"],
+                correct: 0,
+                explanation: "Hêghen coi hệ thống triết học của ông là 'Khoa học của mọi khoa học' chứa đựng toàn bộ chân lý vũ trụ."
+            },
+            {
+                id: 31,
+                question: "Đối tượng của Triết học thời kỳ phục hưng là gì?",
+                options: ["Triết học tự nhiên bao gồm tất cả những tri thức mà con người có được, trước hết là các tri thức thuộc khoa học tự nhiên", "Triết học kinh viện, triết học mang tính tôn giáo", "Triết học tách ra thành các môn khoa học như cơ học, toán học, vật lý học...", "Triết học là khoa học của mọi khoa học"],
+                correct: 0,
+                explanation: "Triết học Phục hưng tập trung nghiên cứu tự nhiên và giải phóng tư tưởng khỏi xiềng xích giáo lý trung cổ."
+            },
+            {
+                id: 32,
+                question: "Đối tượng của triết học ở phương Tây thời trung cổ là gì?",
+                options: ["Về thượng đế và quyền năng của thượng đế", "Về nghi thức và văn hóa", "Nghiên cứu về tự nhiên", "Nghiên cứu về xã hội và lịch sử"],
+                correct: 0,
+                explanation: "Triết học trung cổ Tây Âu bị biến thành 'nữ tì của thần học', đối tượng chủ yếu là chứng minh quyền năng Thượng đế."
+            },
+            {
+                id: 33,
+                question: "Tác phẩm nào sau đây của chủ nghĩa Mác đã làm sáng tỏ bản chất của phương thức sản xuất tư bản chủ nghĩa và vạch ra tính tất yếu của hình thái kinh tế xã hội cộng sản chủ nghĩa?",
+                options: ["Bản thảo kinh tế - Triết học", "Chính sách Kinh tế mới", "Tư bản", "Tuyên ngôn đảng cộng sản"],
+                correct: 2,
+                explanation: "Tác phẩm 'Tư bản' chứng minh quy luật giá trị thặng dư và sự sụp đổ tất yếu của TBCN để chuyển sang CNDV lịch sử."
+            },
+            {
+                id: 34,
+                question: "Giai đoạn lịch sử nào sau đây là giai đoạn Lênin bảo vệ chủ nghĩa Mác?",
+                options: ["Chủ nghĩa tư bản đang trong quá trình hình thành", "Chủ nghĩa tư bản tự do cạnh tranh", "Chủ nghĩa tư bản độc quyền (đế quốc chủ nghĩa)", "Chủ nghĩa tư bản độc quyền nhà nước"],
+                correct: 2,
+                explanation: "V.I. Lênin phát triển và bảo vệ chủ nghĩa Mác trong bối cảnh Chủ nghĩa tư bản đã chuyển sang giai đoạn đế quốc chủ nghĩa."
+            },
+            {
+                id: 35,
+                question: "Trường phái triết học duy tâm nào ảnh hưởng trực tiếp đến sự ra đời của triết học Mác-Lênin?",
+                options: ["I. Kant", "G. Hê-ghen", "G. Béc-co-li", "Platon"],
+                correct: 1,
+                explanation: "Triết học duy tâm khách quan của G.W.F. Hêghen chứa đựng hạt nhân hợp lý là Phép biện chứng mà Mác đã cải tạo kế thừa."
+            },
+            {
+                id: 36,
+                question: "Đâu không phải là nguồn gốc ra đời của chủ nghĩa duy tâm?",
+                options: ["Sự tuyệt đối hóa vai trò của ý thức", "Xem xét phiến diện, tuyệt đối hóa một mặt của quá trình nhận thức", "Tuyệt đối hóa vai trò của lao động trí óc và giai cấp thống trị", "Sự phát triển của khoa học tự nhiên"],
+                correct: 3,
+                explanation: "Sự phát triển của KHTN là nguồn gốc thúc đẩy Chủ nghĩa duy vật phát triển, chứ không phải nguồn gốc của chủ nghĩa duy tâm."
+            },
+            {
+                id: 37,
+                question: "Trong thế giới quan tôn giáo, yếu tố nào đóng vai trò chủ yếu?",
+                options: ["Tri thức", "Niềm tin", "Tình cảm", "Lễ giáo phong kiến"],
+                correct: 1,
+                explanation: "Thế giới quan tôn giáo dựa trên Niềm tin hư ảo, tín ngưỡng vào lực lượng siêu nhiên hơn là lý trí tri thức."
+            },
+            {
+                id: 38,
+                question: "Chọn một đáp án đúng điền vào chỗ trống: 'Chủ nghĩa Mác-Lênin là hệ thống quan điểm và học thuyết khoa học của C.Mác, Ph.Ăngghen và sự [...] của V.I.Lênin.'",
+                options: ["Bảo tồn", "Phát triển", "Góp ý", "Nghiên cứu"],
+                correct: 1,
+                explanation: "V.I. Lênin có công lao bảo vệ và 'phát triển' sáng tạo chủ nghĩa Mác trong thời đại mới."
+            },
+            {
+                id: 39,
+                question: "Trong chủ nghĩa Mác - Lênin, bộ phận lý luận nào nghiên cứu những quy luật kinh tế của sự ra đời, phát triển, suy tàn của phương thức sản xuất tư bản chủ nghĩa và sự ra đời của phương thức sản xuất mới?",
+                options: ["Triết học Mác - Lênin", "Kinh tế chính trị Mác - Lênin", "Chủ nghĩa xã hội khoa học", "Lý luận nhận thức"],
+                correct: 1,
+                explanation: "Kinh tế chính trị Mác - Lênin chuyên sâu nghiên cứu các quy luật vận động kinh tế xã hội."
+            },
+            {
+                id: 40,
+                question: "Đối tượng nghiên cứu của bộ phận chủ nghĩa xã hội khoa học trong chủ nghĩa Mác - Lênin là gì?",
+                options: ["Quá trình cách mạng xã hội chủ nghĩa", "Xã hội loài người", "Lịch sử phát triển của khoa học kỹ thuật", "Phong trào công nhân"],
+                correct: 0,
+                explanation: "CNXH khoa học nghiên cứu những quy luật chính trị - xã hội của quá trình chuyển biến từ TBCN lên CNXH."
+            },
+            {
+                id: 41,
+                question: "Trong ba bộ phận lý luận cấu thành chủ nghĩa Mác - Lênin, triết học có vai trò như thế nào?",
+                options: ["Chỉ là những nghiên cứu khoa học đầu tiên của C.Mác", "Cơ sở lý luận, là thế giới quan và phương pháp luận khoa học cho những bộ phận còn lại", "Chỉ chuyên nghiên cứu về những vấn đề của giới tự nhiên", "Là vũ khí lý luận để chống lại những tư tưởng triết học khác"],
+                correct: 1,
+                explanation: "Triết học Mác - Lênin đóng vai trò là nền tảng thế giới quan và phương pháp luận cho Kinh tế chính trị và CNXH khoa học."
+            },
+            {
+                id: 42,
+                question: "Giá trị nhân văn của chủ nghĩa Mác – Lênin là gì?",
+                options: ["Xác định bản chất con người và lịch sử phát triển của nhân loại", "Tầm quan trọng của con người trong lực lượng sản xuất", "Giải phóng nhân loại khỏi nghèo nàn, lạc hậu và bất công", "Thực hiện giải phóng giai cấp, giải phóng nhân dân lao động và giải phóng con người khỏi ách áp bức, bóc lột bằng cách mạng vô sản"],
+                correct: 3,
+                explanation: "Giá trị nhân văn cao cả nhất của chủ nghĩa Mác-Lênin là mưu cầu giải phóng triệt để con người khỏi mọi ách áp bức bóc lột."
+            },
+            {
+                id: 43,
+                question: "Quá trình ra đời và phát triển của chủ nghĩa Mác-Lênin được chia làm mấy giai đoạn chính?",
+                options: [
+                    "Ba giai đoạn: Giai đoạn C. Mác khởi xướng; Giai đoạn Ph.Ăngghen bổ sung; Giai đoạn V.I.Lênin phát triển",
+                    "Ba giai đoạn: Giai đoạn C.Mác và Ph.Ăngghen; Giai đoạn phát triển của V.I.Lênin; Giai đoạn vận dụng ở các nước XHCN",
+                    "Hai giai đoạn: Giai đoạn truyền thống từ C.Mác đến V.I.Lênin; Giai đoạn hiện đại",
+                    "Hai giai đoạn: Giai đoạn hình thành, phát triển chủ nghĩa Mác (do C.Mác và Ph.Ăngghen); Giai đoạn bảo vệ, phát triển chủ nghĩa Mác thành chủ nghĩa Mác-Lênin (do V.I. Lênin)"
+                ],
+                correct: 3,
+                explanation: "Lịch sử phát triển được chia làm 2 giai đoạn lớn gắn với công lao sáng lập của Mác - Ăngghen và giai đoạn kế thừa phát triển của Lênin."
+            },
+            {
+                id: 44,
+                question: "Hàng loạt cuộc đấu tranh của công nhân chống lại chủ nghĩa tư bản trong những năm 30-40 của thế kỷ XIX đã cho thấy giai cấp công nhân có những thay đổi về địa vị chính trị như thế nào?",
+                options: ["Giai cấp công nhân trở thành một lực lượng chính trị độc lập trong xã hội tư bản", "Giai cấp công nhân trở thành một lực lượng chủ yếu của xã hội tư bản", "Giai cấp công nhân trở thành một giai cấp đối lập với giai cấp tư sản", "Giai cấp công nhân trở thành lực lượng sản xuất trong xã hội tư bản"],
+                correct: 0,
+                explanation: "Phong trào công nhân 1830-1840 đánh dấu giai cấp công nhân đã bước lên đài lịch sử như một lực lượng chính trị độc lập."
+            },
+            {
+                id: 45,
+                question: "Trên lĩnh vực xã hội, hoạt động nào vừa là tiền đề vừa là mục đích thực tiễn chủ yếu nhất của chủ nghĩa Mác?",
+                options: ["Cuộc cách mạng khoa học kỹ thuật lần thứ nhất", "Sự ra đời của một số ngành khoa học xã hội", "Thực tiễn các phong trào cách mạng của giai cấp công nhân", "Thực tiễn các phong trào đấu tranh giành độc lập của các nước thuộc địa"],
+                correct: 2,
+                explanation: "Thực tiễn cách mạng của giai cấp công nhân vừa sinh ra chủ nghĩa Mác vừa là đối tượng chủ yếu mà chủ nghĩa Mác hướng tới phục vụ."
+            },
+            {
+                id: 46,
+                question: "Trong triết học Hêghen, C.Mác và Ph.Ăngghen đã kế thừa nội dung nào là chủ yếu nhất?",
+                options: ["Chủ nghĩa duy tâm khách quan", "Triết học pháp quyền", "Mỹ học", "Phép biện chứng"],
+                correct: 3,
+                explanation: "Mác và Ăngghen đã kế thừa 'Hạt nhân hợp lý' trong triết học Hêghen chính là Phép biện chứng (đã loại bỏ vỏ thần bí duy tâm)."
+            },
+            {
+                id: 47,
+                question: "Bước chuyển biến của C.Mác và Ph.Ăngghen từ thế giới quan duy tâm sang thế giới quan duy vật, từ lập trường chủ nghĩa dân chủ - cách mạng sang lập trường chủ nghĩa cộng sản, xuất phát từ sự kế thừa biện chứng khuynh hướng triết học nào?",
+                options: ["Triết học duy vật nhân bản L. Phoi-o-bắc", "Chủ nghĩa xã hội không tưởng phê phán Pháp", "Chủ nghĩa vô chính phủ Pru-đông", "Chủ nghĩa duy vật duy lý Pháp thế kỷ XVII-XVIII"],
+                correct: 0,
+                explanation: "Chủ nghĩa duy vật nhân bản của Phoi-ơ-bắc là cầu nối quan trọng giúp Mác và Ăngghen chuyển hẳn sang lập trường duy vật."
+            },
+            {
+                id: 48,
+                question: "Khi phê phán những hạn chế trong học thuyết giá trị của A. Smít, C.Mác đã xây dựng nên lý luận gì?",
+                options: ["Học thuyết về đấu tranh giai cấp trong xã hội có giai cấp", "Lý luận về giá trị thặng dư, luận chứng khoa học về bản chất bóc lột của chủ nghĩa tư bản", "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân", "Lý luận về chủ nghĩa tư bản độc quyền"],
+                correct: 1,
+                explanation: "Học thuyết Giá trị thặng dư của C. Mác vạch trần bí mật bóc lột lao động làm thuê dưới chế độ TBCN."
+            },
+            {
+                id: 49,
+                question: "Tư tưởng về những giai đoạn trong quá trình xây dựng chủ nghĩa cộng sản; thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội của chủ nghĩa Mác - Lênin được hình thành vào giai đoạn nào?",
+                options: ["Khi C.Mác còn tham gia hoạt động trong phái Hê-ghen Trẻ", "Những năm 1842-1843", "Những năm 1847-1848", "Từ năm 1849 đến năm 1895"],
+                correct: 3,
+                explanation: "Thời kỳ 1849-1895 sau thất bại cách mạng 1848 là lúc Mác và Ăngghen đào sâu lý luận về thời kỳ quá độ và HTKT-XH."
+            },
+            {
+                id: 50,
+                question: "Tại sao ở Tây Âu thời cận đại, triết học duy vật lại phát triển mạnh mẽ?",
+                options: ["Khoa học tự nhiên phát triển mạnh mẽ", "Do ảnh hưởng của chủ nghĩa duy vật siêu hình", "Các nhà triết học có sự phân hóa mạnh mẽ", "Nhận thức con người phát triển lên một trình độ cao hơn"],
+                correct: 0,
+                explanation: "Sự bùng nổ của Khoa học tự nhiên thực nghiệm thế kỷ XVII - XVIII là bệ đỡ cho chủ nghĩa duy vật phát triển mạnh mẽ."
+            },
+            {
+                id: 51,
+                question: "Triết học xuất hiện vào khoảng thời gian nào?",
+                options: ["Thế kỷ IV (Trước công nguyên)", "Thế kỷ VI (Trước công nguyên)", "Thế kỷ VII (Trước công nguyên)", "Thế kỷ IX (Trước công nguyên)"],
+                correct: 1,
+                explanation: "Lịch sử triết học xác nhận các mầm mống triết học đầu tiên xuất hiện vào khoảng thế kỷ VI TCN."
+            },
+            {
+                id: 52,
+                question: "Những câu chuyện như Truyền thuyết Âu Cơ – Lạc Long Quân, truyền thuyết thánh Gióng của Việt Nam là biểu hiện của hình thức thế giới quan nào sau đây?",
+                options: ["Thế giới quan thần thoại", "Thế giới quan tôn giáo", "Thế giới quan triết học", "Biểu hiện của cả ba hình thức thế giới quan trên"],
+                correct: 0,
+                explanation: "Các truyền thuyết dân gian phản ánh tư duy ngây thơ hòa quyện con người với tự nhiên dưới dạng Thế giới quan Thần thoại."
+            },
+            {
+                id: 53,
+                question: "Tại sao nói sự ra đời của chủ nghĩa Mác là hiện tượng hợp quy luật?",
+                options: ["Đó là sản phẩm của tình hình kinh tế-xã hội những năm 40 của thế kỷ XIX", "Là sự tổng kết những giá trị của tri thức nhân loại thể hiện trong các lĩnh vực khoa học", "Là tài năng bẩm sinh của những người sáng lập ra nó", "Đó là sản phẩm tổng hòa của điều kiện KT-XH, tiền đề KHTN và tiền đề lý luận giữa thế kỷ XIX"],
+                correct: 1,
+                explanation: "Sự ra đời chủ nghĩa Mác là kết quả hợp quy luật của sự tổng kết thực tiễn xã hội và tinh hoa tri thức nhân loại."
+            },
+            {
+                id: 54,
+                question: "Đâu không phải là vai trò của những tiền đề về khoa học tự nhiên đối với sự ra đời chủ nghĩa Mác?",
+                options: ["Bác bỏ tư duy siêu hình và vai trò của “Đấng Sáng tạo”", "Khẳng định tính đúng đắn của quan điểm duy vật biện chứng về bản chất của thế giới", "Khẳng định tính khoa học của quan điểm duy vật biện chứng trong nhận thức và trong thực tiễn", "Giúp Mác- Ăngghen có điều kiện tiếp cận với nguồn tri thức hiện đại"],
+                correct: 3,
+                explanation: "Tiền đề KHTN đóng vai trò chứng minh tính khoa học của tư duy biện chứng và đánh đổ quan niệm siêu hình tôn giáo, chứ không đơn thuần chỉ là tiếp cận tri thức."
+            },
+            {
+                id: 55,
+                question: "Đâu là hạn chế lớn trong triết học của Hê-ghen đã được chủ nghĩa Mác khắc phục?",
+                options: ["Tư duy siêu hình", "Nhận thức về thế giới còn ngây thơ chất phác", "Tính duy tâm", "Phủ định “sạch trơn” những thành tựu triết học trước đó"],
+                correct: 2,
+                explanation: "Mác đã khắc phục Hạn chế duy tâm khách quan ('Ý niệm tuyệt đối') của Hêghen để giữ lại phép biện chứng độc đáo."
+            },
+            {
+                id: 56,
+                question: "Triết học có tính giai cấp không?",
+                options: ["Không có", "Chỉ có trong xã hội Tư bản", "Có tính giai cấp trong mọi trường phái triết học", "Chỉ có trong một số hệ thống triết học"],
+                correct: 2,
+                explanation: "Trong xã hội có giai cấp, mọi hệ thống triết học đều trực tiếp hoặc gián tiếp phản ánh lợi ích và lập trường của một giai cấp nhất định."
+            },
+            {
+                id: 57,
+                question: "Thế giới quan là gì?",
+                options: ["Thế giới quan là sự phản ánh của sự tồn tại vật chất và xã hội của con người dưới hình thức các quan niệm, quan điểm chung", "Thế giới quan không phụ thuộc vào trình độ hiểu biết của con người", "Thế giới quan là quan điểm của giai cấp thống trị xã hội", "Thế giới quan là nội tâm, là những suy nghĩ bên trong của con người"],
+                correct: 0,
+                explanation: "Thế giới quan là toàn bộ những quan niệm, quan điểm chung nhất của con người về thế giới và vị trí con người trong đó."
+            },
+            {
+                id: 58,
+                question: "Theo quan điểm triết học mácxít, triết học ra đời trong điều kiện nào?",
+                options: ["Xã hội phân chia thành giai cấp", "Khi xuất hiện tầng lớp trí thức ngạc nhiên, hoài nghi về mọi thứ xung quanh", "Tư duy của con người đạt trình độ khái quát cao và xuất hiện tầng lớp trí thức", "Khi con người biết ngạc nhiên và hoài nghi"],
+                correct: 2,
+                explanation: "Triết học chỉ ra đời khi tư duy đạt trình độ trừu tượng hóa cao và xã hội hình thành lực lượng lao động trí óc chuyên nghiệp."
+            },
+            {
+                id: 59,
+                question: "Xét về đối tượng nghiên cứu, Triết học khác với Khoa học cụ thể ở chỗ nào?",
+                options: ["Triết học nghiên cứu về con người, còn Khoa học cụ thể chỉ nghiên cứu tự nhiên", "Khoa học cụ thể tìm hiểu bản chất của thế giới, còn Triết học khám phá quy luật của thế giới", "Khoa học cụ thể chỉ nghiên cứu một mặt của thế giới còn Triết học nghiên cứu toàn bộ thế giới trong tính chỉnh thể của nó", "Khoa học cụ thể khám phá ra mọi quy luật của thế giới"],
+                correct: 2,
+                explanation: "Khoa học cụ thể nghiên cứu một lĩnh vực riêng biệt, còn Triết học nghiên cứu toàn bộ thế giới khách quan trong tính chỉnh thể."
+            },
+            {
+                id: 60,
+                question: "Những phát minh của Khoa học tự nhiên nửa đầu thế kỷ XIX đã đem lại cơ sở khoa học cho sự phát triển của điều gì sau đây?",
+                options: ["Sự phát triển phương pháp siêu hình và chủ nghĩa cơ giới", "Sự phát triển phép biện chứng từ tự phát chuyển thành tự giác", "Sự phát triển phép biện chứng duy tâm thành chủ nghĩa tư biện", "Sự phát triển tư duy biện chứng giúp nó thoát khỏi tính tự phát và cởi bỏ lớp vỏ thần bí duy tâm"],
+                correct: 3,
+                explanation: "Thành tựu KHTN thế kỷ XIX giúp tư duy biện chứng phát triển thành Phép biện chứng duy vật khoa học."
+            },
+            {
+                id: 61,
+                question: "Ở phương Tây thời trung cổ con người chịu sự chi phối của quan niệm thế giới quan nào?",
+                options: ["Tôn giáo", "Huyền thoại", "Khoa học", "Triết học"],
+                correct: 0,
+                explanation: "Thời kỳ Trung cổ Tây Âu bị chi phối độc tôn bởi Thế giới quan Tôn giáo (Thần học Kitô giáo)."
+            },
+            {
+                id: 62,
+                question: "Thành tựu vĩ đại nhất của cuộc cách mạng trong triết học do Các Mác và Ănghen thực hiện là gì?",
+                options: ["Xây dựng phép biện chứng vật, chấm dứt sự thống trị của phép biện chứng duy tâm", "Xây dựng chủ nghĩa duy vật về lịch sử, làm sáng tỏ lịch sử tồn tại và phát triển của xã hội loài người", "Phát hiện ra lịch sử phát triển xã hội là lịch sử đấu tranh giai cấp", "Phát hiện ra giá trị thặng dư"],
+                correct: 1,
+                explanation: "Sáng tạo ra Chủ nghĩa duy vật lịch sử chính là thành tựu vĩ đại nhất trong cuộc cách mạng triết học của Mác - Ăngghen."
+            },
+            {
+                id: 63,
+                question: "Mối quan hệ giữa triết học duy vật biện chứng (THDVBC) với khoa học tự nhiên (KHTN) là gì?",
+                options: ["THDVBC là khoa học của mọi ngành KHTN", "Các phát minh về KHTN là cơ sở của các luận điểm của THDVBC, còn THDVBC là cơ sở thế giới quan và phương pháp luận chung cho KHTN", "KHTN là cơ sở duy nhất cho sự hình thành THDVBC", "THDVBC là cơ sở duy nhất cho KHTN"],
+                correct: 1,
+                explanation: "KHTN cung cấp tài liệu thực nghiệm cho THDVBC, ngược lại THDVBC định hướng thế giới quan và phương pháp luận cho KHTN."
+            },
+            {
+                id: 64,
+                question: "Nội dung nào sau đây phản ánh giá trị thực tiễn chính trị xã hội của chủ nghĩa Mác – Lênin?",
+                options: ["Sự hình thành và phát triển trên cơ sở kế thừa những giá trị tư tưởng nhân loại", "Thế giới quan, phương pháp luận phổ biến của nhận thức khoa học", "Khoa học về sự nghiệp giải phóng giai cấp vô sản, giải phóng nhân dân lao động khỏi chế độ áp bức, bóc lột và tiến tới giải phóng con người", "Cung cấp cơ sở thực tiễn cho các khoa học cụ thể"],
+                correct: 2,
+                explanation: "Giá trị thực tiễn chính trị - xã hội cốt lõi là làm kim chỉ nam cho sự nghiệp giải phóng giai cấp vô sản và nhân loại."
+            },
+            {
+                id: 65,
+                question: "Theo nhận xét của C.Mác, những hạn chế cơ bản của chủ nghĩa xã hội không tưởng phê phán Pháp cần phải khắc phục là gì?",
+                options: ["Không luận chứng được một cách khoa học về bản chất của chủ nghĩa tư bản", "Không phát hiện được quy luật vận động, phát triển của chủ nghĩa tư bản", "Không nhận thức được vai trò, sứ mệnh của giai cấp công nhân", "A,B,C đúng"],
+                correct: 3,
+                explanation: "Cả 3 hạn chế trên chính là lý do khiến chủ nghĩa xã hội của Saint-Simon và Fourier dừng lại ở mức không tưởng."
+            },
+            {
+                id: 66,
+                question: "Ưu điểm lớn nhất của những trào lưu chủ nghĩa xã hội không tưởng là gì?",
+                options: ["Khái quát được sự phát triển lịch sử nhân loại", "Tinh thần nhân đạo cao cả", "Dám đối đầu trực tiếp với chủ nghĩa tư bản", "Xác định được sứ mệnh lịch sử của giai cấp công nhân"],
+                correct: 1,
+                explanation: "CNXH không tưởng chứa đựng Tinh thần nhân đạo cao cả, cảm thông sâu sắc với nỗi đau khổ của nhân dân lao động."
+            },
+            {
+                id: 67,
+                question: "Yêu cầu cơ bản của việc học tập, nghiên cứu triết học Mác-Lênin?",
+                options: ["Hiểu đúng thực chất, tinh thần của môn học; hoàn thiện mình trong đời sống cá nhân cũng như trong đời sống cộng đồng xã hội", "Xem những quan điểm của triết học Mác- Lênin là luôn đúng với mọi thời đại", "Vận dụng nguyên vẹn toàn bộ chủ nghĩa Mác- Lênin trong mọi tình huống", "Chỉ học những kiến thức trọng tâm"],
+                correct: 0,
+                explanation: "Nghiên cứu triết học Mác-Lênin đòi hỏi phải nắm đúng bản chất, tinh thần sáng tạo, tránh giáo điều máy móc."
+            },
+            {
+                id: 68,
+                question: "Tác phẩm nào sau đây được xây dựng trên cơ sở thế giới quan thần thoại?",
+                options: ["Tấm Cám", "Thần Trụ trời", "Tây du ký", "Truyện Kiều"],
+                correct: 1,
+                explanation: "Thần Trụ Trời là truyện thần thoại giải thích nguồn gốc vũ trụ tự nhiên bằng niềm tin thần bí thời cổ xưa."
+            },
+            {
+                id: 69,
+                question: "Tác phẩm nào sau đây được xây dựng trên quan niệm siêu hình?",
+                options: ["Tấm Cám", "Thầy bói xem voi", "Sọ dừa", "Bình ngô đại cáo"],
+                correct: 1,
+                explanation: "Truyện ngụ ngôn 'Thầy bói xem voi' phê phán phương pháp tư duy siêu hình: xem xét sự vật phiến diện, lấy cái bộ phận thay cho cái toàn thể."
+            }
+        ];
+
+        /* ==========================================================================
+           2. GLOBAL APP STATE MANAGEMENT
+           ========================================================================== */
+        let activeQuizPool = [];
+        let wrongQuestionIds = new Set();
+        let currentQuestionIndex = 0;
+        let quizMode = 'practice'; // 'practice' or 'exam'
+        let userAnswers = {}; // { questionId: selectedOptionIndex }
+        let examTimerInterval = null;
+        let examTimeSeconds = 0;
+        let statsCompletedCount = 0;
+
+        /* ==========================================================================
+           3. INITIALIZATION & LOCALSTORAGE MANAGEMENT
+           ========================================================================== */
+        window.onload = function() {
+            loadLocalStorageData();
+            updateStatsUI();
+            renderQuestionSearch();
+            renderWrongQuestionsList();
+        };
+
+        function loadLocalStorageData() {
+            const storedWrong = localStorage.getItem('marxism_wrong_q_ids_69');
+            if (storedWrong) {
+                try {
+                    const arr = JSON.parse(storedWrong);
+                    wrongQuestionIds = new Set(arr);
+                } catch(e) {
+                    wrongQuestionIds = new Set();
+                }
+            }
+
+            const storedStats = localStorage.getItem('marxism_stats_tests_69');
+            if (storedStats) {
+                statsCompletedCount = parseInt(storedStats) || 0;
+            }
+        }
+
+        function saveWrongQuestionsToStorage() {
+            localStorage.setItem('marxism_wrong_q_ids_69', JSON.stringify(Array.from(wrongQuestionIds)));
+            updateStatsUI();
+            renderWrongQuestionsList();
+        }
+
+        function updateStatsUI() {
+            document.getElementById('stat-completed-tests').textContent = statsCompletedCount;
+            document.getElementById('stat-wrong-q').textContent = wrongQuestionIds.size;
+            document.getElementById('header-wrong-count').textContent = wrongQuestionIds.size;
+            document.getElementById('wrong-tab-count').textContent = wrongQuestionIds.size;
+            document.getElementById('wrong-btn-count').textContent = wrongQuestionIds.size;
+        }
+
+        /* ==========================================================================
+           4. NAVIGATION & TAB SWITCHING
+           ========================================================================== */
+        function switchTab(tabName) {
+            ['dashboard', 'quiz', 'result', 'wrong-questions'].forEach(t => {
+                const el = document.getElementById(`tab-${t}`);
+                if (el) el.classList.add('hidden');
+            });
+
+            const target = document.getElementById(`tab-${tabName}`);
+            if (target) target.classList.remove('hidden');
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            if (tabName === 'dashboard') {
+                updateStatsUI();
+                renderQuestionSearch();
+            } else if (tabName === 'wrong-questions') {
+                renderWrongQuestionsList();
+            }
+        }
+
+        /* ==========================================================================
+           5. QUIZ ENGINE (START, RENDER, ANSWER, NAVIGATION)
+           ========================================================================== */
+        function startQuiz(mode, customPool = null) {
+            quizMode = mode;
+            userAnswers = {};
+            currentQuestionIndex = 0;
+
+            const limitFilter = document.getElementById('filter-limit').value;
+            const shouldShuffle = document.getElementById('setting-shuffle').checked;
+
+            if (customPool) {
+                activeQuizPool = customPool.map(q => ({...q}));
+            } else {
+                let pool = pdfQuestions69.map(q => ({...q}));
+
+                if (shouldShuffle) {
+                    pool = shuffleArray(pool);
+                }
+
+                if (limitFilter !== '69') {
+                    const limit = parseInt(limitFilter);
+                    pool = pool.slice(0, limit);
+                }
+
+                activeQuizPool = pool;
+            }
+
+            // Shuffle options for each question if requested
+            if (shouldShuffle) {
+                activeQuizPool.forEach(q => {
+                    const correctAnswerText = q.options[q.correct];
+                    q.options = shuffleArray([...q.options]);
+                    q.correct = q.options.indexOf(correctAnswerText);
+                });
+            }
+
+            if (activeQuizPool.length === 0) {
+                showToast('Không có câu hỏi nào để bắt đầu!', 'error');
+                return;
+            }
+
+            if (quizMode === 'exam') {
+                examTimeSeconds = activeQuizPool.length * 60; // 1 phut / cau
+                startTimer();
+                document.getElementById('quiz-mode-badge').innerText = "Chế độ Thi thử Bấm giờ";
+                document.getElementById('quiz-mode-badge').className = "px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-purple/20 text-brand-purple border border-brand-purple/30";
+                document.getElementById('quiz-timer-container').classList.remove('hidden');
+                document.getElementById('btn-submit-exam').classList.remove('hidden');
+            } else {
+                stopTimer();
+                document.getElementById('quiz-mode-badge').innerText = "Chế độ Luyện tập (Có giải thích)";
+                document.getElementById('quiz-mode-badge').className = "px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-blue/20 text-brand-cyan border border-brand-blue/30";
+                document.getElementById('quiz-timer-container').classList.add('hidden');
+                document.getElementById('btn-submit-exam').classList.add('hidden');
+            }
+
+            switchTab('quiz');
+            renderCurrentQuestion();
+        }
+
+        function renderCurrentQuestion() {
+            const q = activeQuizPool[currentQuestionIndex];
+            const total = activeQuizPool.length;
+
+            document.getElementById('quiz-current-num').textContent = currentQuestionIndex + 1;
+            document.getElementById('quiz-total-num').textContent = total;
+
+            const progressPct = Math.round(((currentQuestionIndex + 1) / total) * 100);
+            document.getElementById('quiz-progress-bar').style.width = `${progressPct}%`;
+            document.getElementById('quiz-progress-percent').textContent = `${progressPct}%`;
+
+            let correctCount = 0;
+            let wrongCount = 0;
+            Object.keys(userAnswers).forEach(qId => {
+                const targetQ = activeQuizPool.find(item => item.id == qId);
+                if (targetQ) {
+                    if (userAnswers[qId] === targetQ.correct) correctCount++;
+                    else wrongCount++;
+                }
+            });
+            document.getElementById('quiz-score-correct').textContent = correctCount;
+            document.getElementById('quiz-score-wrong').textContent = wrongCount;
+
+            document.getElementById('question-id-tag').textContent = `Câu gốc PDF: Câu ${q.id}`;
+            document.getElementById('question-text').textContent = `${currentQuestionIndex + 1}. ${q.question}`;
+
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+
+            const optionLabels = ['A', 'B', 'C', 'D'];
+            const optionColors = [
+                'from-blue-600/20 to-blue-900/30 border-blue-500/40 hover:border-blue-400',
+                'from-cyan-600/20 to-cyan-900/30 border-cyan-500/40 hover:border-cyan-400',
+                'from-purple-600/20 to-purple-900/30 border-purple-500/40 hover:border-purple-400',
+                'from-amber-600/20 to-amber-900/30 border-amber-500/40 hover:border-amber-400'
+            ];
+
+            const isAnswered = userAnswers.hasOwnProperty(q.id);
+            const selectedOpt = userAnswers[q.id];
+
+            q.options.forEach((optText, idx) => {
+                const btn = document.createElement('button');
+                btn.className = `option-btn w-full p-4 rounded-xl border text-left flex items-start gap-3 bg-gradient-to-r ${optionColors[idx % 4]} transition`;
+
+                if (isAnswered) {
+                    if (quizMode === 'practice') {
+                        if (idx === q.correct) {
+                            btn.className = `option-btn w-full p-4 rounded-xl border text-left flex items-start gap-3 bg-emerald-500/20 border-emerald-500 text-emerald-200 font-semibold pulse-correct shadow-lg shadow-emerald-500/10`;
+                        } else if (idx === selectedOpt && selectedOpt !== q.correct) {
+                            btn.className = `option-btn w-full p-4 rounded-xl border text-left flex items-start gap-3 bg-rose-500/20 border-rose-500 text-rose-200 font-semibold`;
+                        } else {
+                            btn.className += ` opacity-40`;
+                        }
+                    } else {
+                        if (idx === selectedOpt) {
+                            btn.className = `option-btn w-full p-4 rounded-xl border-2 text-left flex items-start gap-3 bg-brand-blue/30 border-brand-cyan text-white font-bold`;
+                        }
+                    }
+                }
+
+                btn.onclick = () => selectOption(q.id, idx);
+
+                btn.innerHTML = `
+                    <span class="w-7 h-7 rounded-lg bg-navy-900/80 border border-slate-600 flex items-center justify-center font-bold text-sm text-brand-cyan flex-shrink-0">
+                        ${optionLabels[idx]}
+                    </span>
+                    <span class="text-sm sm:text-base text-slate-100 leading-snug pt-0.5">${optText}</span>
+                `;
+
+                optionsContainer.appendChild(btn);
+            });
+
+            // Explanation Box
+            const expBox = document.getElementById('explanation-box');
+            if (quizMode === 'practice' && isAnswered) {
+                expBox.classList.remove('hidden');
+                const isCorrect = (selectedOpt === q.correct);
+
+                if (isCorrect) {
+                    expBox.className = "p-5 rounded-xl border border-emerald-500/40 bg-emerald-500/10 text-emerald-100 space-y-2";
+                    document.getElementById('explanation-title').className = "flex items-center gap-2 font-bold text-sm text-emerald-400";
+                    document.getElementById('explanation-status-tag').textContent = "ĐÚNG CHÍNH XÁC";
+                    document.getElementById('explanation-status-tag').className = "text-xs px-2.5 py-0.5 rounded-full font-bold bg-emerald-500 text-white";
+                } else {
+                    expBox.className = "p-5 rounded-xl border border-rose-500/40 bg-rose-500/10 text-rose-100 space-y-2";
+                    document.getElementById('explanation-title').className = "flex items-center gap-2 font-bold text-sm text-rose-400";
+                    document.getElementById('explanation-status-tag').textContent = "CHƯA CHÍNH XÁC";
+                    document.getElementById('explanation-status-tag').className = "text-xs px-2.5 py-0.5 rounded-full font-bold bg-rose-500 text-white";
+                }
+
+                document.getElementById('explanation-text').innerHTML = `
+                    <strong class="block mb-1 text-slate-200">Tại sao chọn đáp án này:</strong>
+                    ${q.explanation}
+                `;
+            } else {
+                expBox.classList.add('hidden');
+            }
+
+            document.getElementById('btn-prev').disabled = (currentQuestionIndex === 0);
+
+            if (currentQuestionIndex === total - 1) {
+                document.getElementById('btn-next').innerHTML = `<span>Xem Kết Quả</span> <i class="fa-solid fa-flag-checkered"></i>`;
+            } else {
+                document.getElementById('btn-next').innerHTML = `<span>Câu tiếp theo</span> <i class="fa-solid fa-arrow-right"></i>`;
+            }
+        }
+
+        function selectOption(qId, optionIdx) {
+            if (userAnswers.hasOwnProperty(qId) && quizMode === 'practice') {
+                return;
+            }
+
+            userAnswers[qId] = optionIdx;
+            const q = activeQuizPool.find(item => item.id == qId);
+
+            if (optionIdx !== q.correct) {
+                wrongQuestionIds.add(q.id);
+            } else {
+                wrongQuestionIds.delete(q.id);
+            }
+            saveWrongQuestionsToStorage();
+
+            renderCurrentQuestion();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < activeQuizPool.length - 1) {
+                currentQuestionIndex++;
+                renderCurrentQuestion();
+            } else {
+                finishExam();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                renderCurrentQuestion();
+            }
+        }
+
+        function quitQuiz() {
+            if (confirm("Bạn có chắc chắn muốn dừng bài làm và quay về trang chủ?")) {
+                stopTimer();
+                switchTab('dashboard');
+            }
+        }
+
+        /* ==========================================================================
+           6. TIMER & FINISH EXAM
+           ========================================================================== */
+        function startTimer() {
+            stopTimer();
+            updateTimerDisplay();
+            examTimerInterval = setInterval(() => {
+                examTimeSeconds--;
+                updateTimerDisplay();
+                if (examTimeSeconds <= 0) {
+                    stopTimer();
+                    showToast('Đã hết thời gian thi thử!', 'warning');
+                    finishExam();
+                }
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (examTimerInterval) clearInterval(examTimerInterval);
+        }
+
+        function updateTimerDisplay() {
+            const mins = Math.floor(examTimeSeconds / 60);
+            const secs = examTimeSeconds % 60;
+            document.getElementById('quiz-timer-text').textContent =
+                `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        function finishExam() {
+            stopTimer();
+            statsCompletedCount++;
+            localStorage.setItem('marxism_stats_tests_69', statsCompletedCount);
+
+            let correctCount = 0;
+            let wrongCount = 0;
+
+            activeQuizPool.forEach(q => {
+                if (userAnswers.hasOwnProperty(q.id)) {
+                    if (userAnswers[q.id] === q.correct) {
+                        correctCount++;
+                    } else {
+                        wrongCount++;
+                        wrongQuestionIds.add(q.id);
+                    }
+                } else {
+                    wrongCount++;
+                    wrongQuestionIds.add(q.id);
+                }
+            });
+
+            saveWrongQuestionsToStorage();
+
+            const total = activeQuizPool.length;
+            const percentage = Math.round((correctCount / total) * 100);
+
+            document.getElementById('result-score-percent').textContent = `${percentage}%`;
+            document.getElementById('result-correct-count').textContent = correctCount;
+            document.getElementById('result-wrong-count').textContent = wrongCount;
+            document.getElementById('result-total-count').textContent = total;
+
+            const resIcon = document.getElementById('result-icon');
+            if (percentage >= 80) {
+                document.getElementById('result-title').textContent = "Xuất Sắc! Thuộc Sâu Kiến Thức";
+                document.getElementById('result-subtitle').textContent = "Bạn đã nắm rất vững trọn bộ 69 câu hỏi Triết học Mác-Lênin.";
+                resIcon.className = "fa-solid fa-trophy text-amber-400";
+            } else if (percentage >= 50) {
+                document.getElementById('result-title').textContent = "Kết Quả Khá Tốt!";
+                document.getElementById('result-subtitle').textContent = "Hãy dành chút thời gian làm lại các câu chưa đúng.";
+                resIcon.className = "fa-solid fa-medal text-brand-cyan";
+            } else {
+                document.getElementById('result-title').textContent = "Cần Cố Gắng Thêm!";
+                document.getElementById('result-subtitle').textContent = "Đừng lo lắng, hãy ôn lại danh sách câu hỏi làm sai để đạt kết quả cao hơn.";
+                resIcon.className = "fa-solid fa-book-open text-rose-400";
+            }
+
+            const btnWrongOnly = document.getElementById('btn-result-wrong-only');
+            if (wrongCount === 0) {
+                btnWrongOnly.classList.add('hidden');
+            } else {
+                btnWrongOnly.classList.remove('hidden');
+            }
+
+            renderResultBreakdown();
+            switchTab('result');
+        }
+
+        function renderResultBreakdown() {
+            const container = document.getElementById('result-breakdown-list');
+            container.innerHTML = '';
+
+            const optionLabels = ['A', 'B', 'C', 'D'];
+
+            activeQuizPool.forEach((q, idx) => {
+                const userChoice = userAnswers[q.id];
+                const isCorrect = (userChoice === q.correct);
+
+                const item = document.createElement('div');
+                item.className = `p-4 rounded-xl border ${isCorrect ? 'border-emerald-500/30 bg-emerald-500/5' : 'border-rose-500/30 bg-rose-500/5'} space-y-2`;
+
+                item.innerHTML = `
+                    <div class="flex items-start justify-between gap-3">
+                        <h4 class="font-bold text-sm sm:text-base text-slate-100">
+                            Câu ${idx + 1} (PDF Câu ${q.id}): ${q.question}
+                        </h4>
+                        <span class="px-2.5 py-0.5 rounded-full text-xs font-bold ${isCorrect ? 'bg-emerald-500 text-white' : 'bg-rose-500 text-white'} flex-shrink-0">
+                            ${isCorrect ? 'Đúng' : 'Sai'}
+                        </span>
+                    </div>
+
+                    <div class="text-xs sm:text-sm space-y-1 text-slate-300 pt-1">
+                        <p class="${isCorrect ? 'text-emerald-400 font-semibold' : 'text-rose-400 font-semibold'}">
+                            Lựa chọn của bạn: ${userChoice !== undefined ? `${optionLabels[userChoice]}. ${q.options[userChoice]}` : 'Chưa trả lời'}
+                        </p>
+                        ${!isCorrect ? `<p class="text-emerald-400 font-semibold">Đáp án đúng: ${optionLabels[q.correct]}. ${q.options[q.correct]}</p>` : ''}
+                    </div>
+
+                    <div class="mt-2 p-3 rounded-lg bg-navy-900/80 border border-slate-700/60 text-xs text-slate-300">
+                        <strong class="text-brand-cyan">Giải thích:</strong> ${q.explanation}
+                    </div>
+                `;
+
+                container.appendChild(item);
+            });
+        }
+
+        function restartQuiz() {
+            startQuiz(quizMode, activeQuizPool);
+        }
+
+        function startWrongQuestionsQuiz() {
+            const wrongPool = pdfQuestions69.filter(q => wrongQuestionIds.has(q.id));
+            if (wrongPool.length === 0) {
+                showToast('Bạn không có câu hỏi làm sai nào!', 'success');
+                return;
+            }
+            startQuiz('practice', wrongPool);
+        }
+
+        /* ==========================================================================
+           7. WRONG QUESTIONS MANAGEMENT
+           ========================================================================== */
+        function renderWrongQuestionsList() {
+            const container = document.getElementById('wrong-questions-list');
+            container.innerHTML = '';
+
+            const wrongList = pdfQuestions69.filter(q => wrongQuestionIds.has(q.id));
+
+            if (wrongList.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-12 text-slate-400 space-y-3">
+                        <i class="fa-solid fa-circle-check text-5xl text-emerald-400"></i>
+                        <p class="text-base font-semibold">Tuyệt vời! Bạn không có câu hỏi làm sai nào.</p>
+                    </div>
+                `;
+                document.getElementById('btn-start-wrong-quiz').disabled = true;
+                document.getElementById('btn-start-wrong-quiz').classList.add('opacity-50');
+                return;
+            }
+
+            document.getElementById('btn-start-wrong-quiz').disabled = false;
+            document.getElementById('btn-start-wrong-quiz').classList.remove('opacity-50');
+
+            const optionLabels = ['A', 'B', 'C', 'D'];
+
+            wrongList.forEach((q, idx) => {
+                const card = document.createElement('div');
+                card.className = "p-5 rounded-xl border border-rose-500/30 bg-navy-900/60 space-y-3";
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-start gap-4">
+                        <h4 class="font-bold text-slate-100 text-base">
+                            Câu gốc PDF ${q.id}: ${q.question}
+                        </h4>
+                        <button onclick="removeSingleWrong(${q.id})" class="text-slate-400 hover:text-rose-400 text-xs flex items-center gap-1 transition">
+                            <i class="fa-solid fa-trash"></i> Xóa câu này
+                        </button>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+                        ${q.options.map((opt, i) => `
+                            <div class="p-2 rounded-lg ${i === q.correct ? 'bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/40' : 'bg-navy-800 text-slate-400'}">
+                                ${optionLabels[i]}. ${opt}
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div class="p-3 rounded-lg bg-navy-800/90 border border-slate-700/50 text-xs text-slate-300">
+                        <strong class="text-amber-400">Giải thích:</strong> ${q.explanation}
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function removeSingleWrong(qId) {
+            wrongQuestionIds.delete(qId);
+            saveWrongQuestionsToStorage();
+            showToast('Đã xóa câu hỏi khỏi danh sách làm sai', 'info');
+        }
+
+        function clearWrongQuestions() {
+            if (confirm("Bạn có chắc chắn muốn xóa toàn bộ danh sách câu hỏi làm sai?")) {
+                wrongQuestionIds.clear();
+                saveWrongQuestionsToStorage();
+                showToast('Đã xóa sạch danh sách làm sai', 'success');
+            }
+        }
+
+        /* ==========================================================================
+           8. SEARCH QUESTION BANK
+           ========================================================================== */
+        function renderQuestionSearch() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const container = document.getElementById('search-results-list');
+            container.innerHTML = '';
+
+            const filtered = pdfQuestions69.filter(q =>
+                q.question.toLowerCase().includes(query) ||
+                q.explanation.toLowerCase().includes(query)
+            );
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<p class="text-xs text-slate-500 italic py-2">Không tìm thấy câu hỏi phù hợp.</p>`;
+                return;
+            }
+
+            filtered.slice(0, 10).forEach(q => {
+                const item = document.createElement('div');
+                item.className = "p-3 rounded-xl bg-navy-900/60 border border-slate-700/40 hover:border-brand-cyan/40 transition cursor-pointer text-xs space-y-1";
+                item.onclick = () => startQuiz('practice', [q]);
+
+                item.innerHTML = `
+                    <div class="flex justify-between items-center text-brand-cyan font-semibold">
+                        <span>Câu ${q.id} trong PDF</span>
+                        <span class="text-[10px] bg-brand-blue/20 px-2 py-0.5 rounded text-slate-300">Ôn câu này</span>
+                    </div>
+                    <p class="font-bold text-slate-200 line-clamp-2">${q.question}</p>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        /* ==========================================================================
+           9. UTILITIES
+           ========================================================================== */
+        function shuffleArray(array) {
+            let arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.getElementById('toast');
+            const msgEl = document.getElementById('toast-msg');
+            const iconEl = document.getElementById('toast-icon');
+
+            msgEl.textContent = message;
+
+            if (type === 'success') {
+                iconEl.className = "fa-solid fa-circle-check text-emerald-400 text-lg";
+            } else if (type === 'warning' || type === 'error') {
+                iconEl.className = "fa-solid fa-triangle-exclamation text-rose-400 text-lg";
+            } else {
+                iconEl.className = "fa-solid fa-circle-info text-brand-cyan text-lg";
+            }
+
+            toast.classList.remove('translate-y-20', 'opacity-0');
+
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
